@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# IDE
+.trae/
+.idea/
+.vscode/
+
+# 本地模型与临时文件
+本地模型/
+*.tmp
+*.log
