@@ -9,6 +9,9 @@
 > V3 是最终生产架构：任意 decoder-only 模型输入 `hidden_dim` 即自动获得最优
 > 注入参数（λ/γ/τ），四层增强自动编排，自带 FastAPI 双协议服务与数据打标闭环。
 
+> 🗣️ **想看懂这个项目？** 有小白版！[【大白话版】语义回响是什么？1.5B 为什么能反超大厂？](https://github.com/091635Aa/SemanticEcho-Hub/blob/main/大白话版.md)（用买菜做饭的例子讲清楚）
+> 🏛️ **综合大仓库（总入口）**：[SemanticEcho-Hub](https://github.com/091635Aa/SemanticEcho-Hub) —— 汇总全部子仓库 + 大白话 + 商业授权价目表
+
 ## 核心实测结果
 
 1.5B 原版基座（Qwen2.5-1.5B-Instruct，未微调）挂载引擎后，5 项图灵类基准的
